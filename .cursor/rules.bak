@@ -1,0 +1,13 @@
+escopo_global:
+  include:
+    - "**/*"
+  exclude:
+    - "**/node_modules/**/*"
+    - "**/.git/**/*"
+    - "**/dist/**/*"
+    - "**/build/**/*"
+    - "**/coverage/**/*"
+regras:
+  - manter compatibilidade MCP
+  - priorizar documentação e testes (jest)
+
